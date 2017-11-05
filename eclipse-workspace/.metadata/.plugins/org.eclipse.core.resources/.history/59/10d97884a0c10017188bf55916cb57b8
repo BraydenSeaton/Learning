@@ -1,0 +1,16 @@
+package common;
+
+public final class Program {
+
+	public static void main(String[] args) {
+		String number_value = "1";
+		Integer number = 1;
+
+		String value_to_encrypt = "This is a test";
+		
+		String we_expect_it_to_equal = "This is a testX";
+		
+		System.out.println(value_to_encrypt.equals(we_expect_it_to_equal));
+	}
+
+}
